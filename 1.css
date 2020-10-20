@@ -5,7 +5,8 @@
 }
 body
 {
-    background-image: url(ff4.jpeg);
+/*     background-image: url(ff4.jpeg); */
+    background-color: coral;
  background-size:contain;
   background-position:top;
     box-sizing:content-box;

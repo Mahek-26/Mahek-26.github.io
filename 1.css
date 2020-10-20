@@ -1,0 +1,90 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    background-image: url(ff.jpeg);
+ background-size:contain;
+  background-position:top;
+    box-sizing:content-box;
+    font-family:cursive;
+    text-align: justify;
+    
+}
+.head
+{
+   display:grid;
+    list-style: none;
+    color:rebeccapurple; 
+    text-align:center;
+    font-family: inherit;
+    font-style: normal;
+    font-size: 45;
+    
+}
+.menu
+{
+    background-color: yellowgreen;
+        text-align:center;
+    font-size: 15;
+}
+.menu ul
+{
+    display:inline-flex;
+    list-style:none;
+    color:white;
+}
+.menu ul li
+{
+    width: 120px;
+    margin: 15px;
+    padding: 20px;
+    font-size: 17;
+}
+.menu ul li a
+{
+    text-decoration:inherit;
+    outline-color: whitesmoke;
+    color:white;
+}
+.menu .fa
+{
+    margin-right: 5px;
+    max-height: inherit;
+}
+.menu p
+{
+    position:absolute;
+    top:23%;
+    left:3%;
+    transform: translate3dscale(30%);
+    padding: 40px;
+    box-sizing:border-box;
+    display:inline;
+}
+
+.menu p
+{
+    margin: 0;
+    padding: 5px 10px 30px;
+    text-align:justify;
+    font-size: 18;
+    color:darkblue;
+}
+.box
+{
+    position:static;
+    top:10%;
+    left: 15%;
+    transform: translate3dscale(30%);
+    padding: 40px;
+    box-sizing:border-box;
+    display:inline;
+}
+.active,.menu ul li:hover
+{
+    background-color:seagreen;
+    border-radius: 10px;
+}

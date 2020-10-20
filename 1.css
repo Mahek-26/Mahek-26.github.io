@@ -92,7 +92,7 @@ body
 
 
 
-p{ 
+h1{ 
     font-weight: 300;
     text-transform: uppercase;
     }
@@ -104,7 +104,7 @@ p{
    font-size: 240%;
     letter-spacing: 1px;
   }
-p1{
+p{
     font-size: 180%;
     word-spacing: 2px;
     text-align: center;
@@ -122,7 +122,7 @@ p:after {
             height: 3px;
             background-color: #e67e22;
             content: " " ;
-            width: 100px;
+            width: 1000px;
             margin:  0 auto;
             margin-top: 30px;
           }
